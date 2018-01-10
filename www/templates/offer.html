@@ -1,0 +1,20 @@
+<ion-view view-title="lATEST OFFERS">
+     <ion-content>
+         <div collection-repeat="item in offers"
+           collection-item-width="'100%'"
+           collection-item-height="210"> 
+
+           <div class="offer_img" style="background:url({{item.img}})no-repeat; background-size:cover">
+            <span class="discount">{{item.discount}}</span>
+            <span class="discount item_deal main_color"><span class="sec_color">{{item.maxprice}}</span>{{item.minprice}}</span>   
+            <span ng-click="bookMark(item)" class="bookmark" ng-class="{'add_item':item.add_tolist}"><i class="ion-ios-heart"></i></span>  
+            <div class="offer_detail" ng-click="goto('/app/detail')">  
+                <h3>{{item.name}}</h3>
+                <p>Dubai, 19.0 km to City centre</p>  
+                <p class="rate_value"><span class="main_color">{{item.rate}}</span> / 100 (10258 reviews)</p>
+                <span class="arrow"><i class="ion-chevron-right"></i></span>   
+            </div>     
+           </div> 
+          </div>
+  </ion-content>
+</ion-view>

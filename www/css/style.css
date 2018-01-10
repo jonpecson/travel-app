@@ -1,1 +1,501 @@
 /* Empty. Add your own CSS if you like */
+.bg_color{
+    background:#ef950f !important
+    }
+.sec_bg{
+    background:#dd4449 !important
+    }
+.main_color{
+    color:#ef950f !important
+    }
+.sec_color{
+  	color:#007d36 !important
+    }
+.button.button-block{
+	border:none;
+	box-shadow:none;
+	border-radius:0;
+	padding:0;
+	font-size:15px;
+    color: #fff;
+    margin:10px 0 0 0;
+    line-height: 47px
+	}
+.scroll-content{
+    margin-top: 0
+    }
+.item .item-content.activated{
+	background:none;
+	}	
+/*login*/
+.logo img{
+    width:240px;
+    }
+.logo{
+	display: block;
+	text-align: center;
+	margin:50px 0
+	}			
+.app_form h3{
+	text-align:center;
+	font-size:18px;
+	font-weight:normal
+    }
+.app_form .list-inset{
+    border-radius: 0
+    }
+.app_form .item-input{
+	border-color:#898989;
+	margin-bottom:15px;
+    padding:5px 10px;
+    height:46px;
+    border-radius: 0 !important
+	}	
+.app_form span{ 
+    margin-bottom:7px;
+    display: inline-block;
+    white-space: nowrap
+    }
+.app_form .placeholder-icon{
+	padding-right:10px;
+	}	
+.app_form .item-input input::-webkit-input-placeholder {
+	color:#000;
+	}
+.app_form .item-input input:-moz-placeholder { /* Firefox 18- */
+	color:#000;  
+	}
+.app_form .item-input input::-moz-placeholder {  /* Firefox 19+ */
+	color:#000; 
+	}
+.app_form .item-input input:-ms-input-placeholder {  
+	color:#000;  
+	}
+.forg_btn {
+    margin-top: 20px;
+    }
+.popup-container .popup{
+    background: #fff
+    }
+.popup-buttons .button{
+    margin: 0
+    }
+.popup-container .app_form .item-input{
+    margin-bottom: 0
+    }
+/*register*/
+.register_page h3{
+    margin:30px 0;
+    }
+/*header*/		
+.bar.bar-stable {
+    height: 50px;
+    border: none;
+    background-image:none 
+    }	
+.has-header {
+    top: 50px;
+    }
+.bar.bar-stable .title {
+    color: #fff;
+    font-weight: normal;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    text-transform: uppercase
+    }
+.bar-stable .button.button-clear {
+    color: #fff;
+    height: 40px;
+    }
+.bar-stable .button.button-clear.back_btn{
+    position: absolute;
+    right: 0;
+    font-size: 17px;
+    width: 30px;
+    }
+/*home*/
+.det_list .item{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    margin: 0;
+    }
+.det_list .item-complex .item-content{
+    padding: 0
+    }
+.det_list h3{
+	font-size:19px;
+	font-weight:normal;
+	margin:0;
+	margin-bottom:10px;
+	}
+.item_img{
+	width:100%;
+	height:200px;
+    background-size:cover !important;
+    background-position: center center !important;
+    margin-bottom: 10px;
+	}
+.item_detail{
+    display: inline-block;
+    width: 100%
+}
+.item_detail h3,.detail_page h3{
+	font-size:17px;
+	margin:10px 0;
+	display:inline-block;
+	float:left;
+	margin-bottom:5px;
+    width:calc(100% - 90px);
+    font-weight: normal;
+    margin-top: 0
+	}
+.rating{
+	float: right;
+    width: 80px;
+    font-size: 14px;
+    text-align: right;
+	}	
+.rating i{
+	color:#ffbf25
+    }
+.item_detail p{
+    color: #666
+    }
+.det_list .item p{
+    width: 100%;
+    max-height: 40px;
+    white-space: normal;
+	}	
+.item_detail .date{
+	color:#ed1c24;
+	font-size:16px;
+	margin-bottom:5px;
+	}	
+.det_list .item .price{
+	font-size:16px;
+	line-height: 26px;
+	}
+.price>span{
+	font-weight:600;
+	padding-left:10px;
+	}	
+/*detail*/
+.detail_page h3{
+    margin-bottom: 10px;
+    }
+.main_img{
+    width: 100%;
+    height: 200px;
+    display: inline-block
+    }
+.more_img{
+    width: 33.333%;
+    float: left;
+    padding:4px;
+    height: 63px;
+    margin-bottom: 10px;
+    }
+.detail_img:first-child .more_img{
+    padding-left: 0
+    }
+.more_img span{
+    display: inline-block;
+    background-size: cover !important;
+    background-position: center center !important;
+    height: 55px;
+    width: 100%
+    }
+.hotel_data{
+    margin-top: 15px
+    }
+.hotel_data p{
+    padding: 13px;
+    font-size: 16px;
+    background: #e5e5e5;
+    }
+.hotel_data p>span{
+    float: right;
+    font-weight: 600
+    }
+/*reservation form*/
+.reservation_form .item-input{
+    background: #f5f5f5;
+    margin-bottom: 5px;
+    }
+.reservation_form input[type="date"]{
+    padding: 0
+    }
+.reservation_form input[type="date"]::-webkit-calendar-picker-indicator{
+    background-image: url(../img/calendar.png);
+    background-position:center;
+    background-size:15px 15px;
+    background-repeat:no-repeat;
+    color:rgba(255,255,255,0);
+    margin-right: 10px;
+    }
+.app_form .item-select select{
+    width: 100%;
+    max-width: 100%;
+    direction: ltr;
+    padding: 5px 10px;
+    padding-right: 50px;
+    background: none
+    }
+.app_form .item-select:after {
+    border-top: none;
+    border-right: none;
+    border-bottom: 9px solid;
+    border-left: 9px solid rgba(0, 0, 0, 0);
+    color: #676666;
+    top: auto;
+    bottom: 0;
+    right: 0;
+    }
+.app_form .txt_area{
+    height: auto
+    }
+.app_form .placeholder-icon{
+	padding-right:10px;
+	}	
+.txt_area.item-input textarea::-webkit-input-placeholder {
+	color:#000;
+	}
+.txt_area.item-input textarea:-moz-placeholder { /* Firefox 18- */
+	color:#000;  
+	}
+.txt_area.item-input textarea::-moz-placeholder {  /* Firefox 19+ */
+	color:#000; 
+	}
+.txt_area.item-input textarea:-ms-input-placeholder {  
+	color:#000;  
+	}
+ .txt_area.item-input textarea {
+    background: none;
+    }
+.reservation_form .list{
+    margin-bottom: 0;
+    display: inline-block;
+    width: 100%
+    }
+.reservation_form h3{
+    text-align: left;
+    margin: 0 0 7px 0;
+    font-size: 16px;
+    font-weight: 600
+    }
+.reservation_form p{
+    float: right;
+    font-size: 13px;
+    color: red
+    }
+/*contact*/
+.txt_area .placeholder-icon{
+    position: absolute;
+    top: 5px;
+    }
+.contact_us .txt_area.item-input textarea {
+    padding-left: 23px;
+    }
+.contact_info{
+    background: #eee;
+    border-bottom: 1px solid #ddd
+    }
+.contact_info h3{
+    font-size: 15px;
+    margin-bottom: 25px;
+    text-align: center
+    }
+.contact_info p{
+    padding-left:30px;
+    position: relative
+    }
+.contact_info .link{
+    text-decoration: underline
+    }
+.contact_info p>span{
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    color: #fff;
+    border-radius: 3px;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 15px
+    }
+/*menu*/
+.menu_app{
+    padding: 20px;
+    }
+.menu_app .item-complex .item-content{
+    font-size: 14px;
+    background:none;
+    padding: 14px;
+    text-align: center
+    }	
+.menu_app .item{
+    margin: 0;
+    border: none;
+    background: none;
+    color: #d2d2d2;
+    border-bottom: 1px solid #363434;
+    box-shadow: 0 8px 6px -6px rgb(8, 8, 8);
+    }
+.menu_app{	
+    top:165px;	
+    background: #1b1b1b
+    }
+.menu_head.bar.bar-stable{
+    height:165px;
+    color: #d2d2d2;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+1,0c0c0c+41,1b1b1b+100 */
+    background: rgb(0,0,0); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(0,0,0,1) 1%, rgba(12,12,12,1) 41%, rgba(27,27,27,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 1%,rgba(12,12,12,1) 41%,rgba(27,27,27,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,1) 1%,rgba(12,12,12,1) 41%,rgba(27,27,27,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#1b1b1b',GradientType=0 ); /* IE6-9 */
+    }	
+.profile_img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid;
+    margin-bottom: 8px;
+    }	
+.profile_img img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: 2px solid #363434;
+    margin: 7px;
+    }
+.menu_head h3 {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 4px;
+    font-weight: 600;
+    margin-top: 0;
+    }	
+.log_out{
+    position: absolute;
+    top: 53px;
+    right: 20px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    line-height: 28px;
+    color: #fff;
+    font-size: 18px;
+    }
+/*offer*/
+.offer_img{
+    height: 200px;
+    position: relative;
+    background-position: center center !important;
+    margin: 10px
+	}	
+.offer_detail{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	padding:5px 10px;
+    padding-right: 22px;
+	color:#fff;
+	background:rgba(0,0,0,.7);
+	}
+.offer_detail h3{
+    font-size: 17px;
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: 5px;
+    color: #fff;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    }
+.offer_detail p{
+    margin: 0;
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden
+    }
+.discount{
+    position: absolute;
+    top:10px;
+    right: 0;
+    padding:1px 5px;
+    color: #fff;
+    background: #c94a30;
+    border-radius: 2px 0 0 2px;
+    font-size: 13px;
+    box-shadow: 0 8px 8px -6px #666
+    }
+.item_deal{
+    top: 37px;
+    font-size: 15px;
+    background: #fff;
+    font-weight: 600
+    }
+.item_deal span{
+    text-decoration: line-through;
+    padding-right: 10px;
+    }
+.rate_value span{
+    font-weight: bold
+    }
+.bookmark{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: rgba(0,0,0,.6);
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+    font-size: 22px;
+    margin: 10px;
+    color: #eee;
+    box-shadow: 0 8px 8px -6px #666;
+    } 
+.add_item{
+    color: #c94a30
+    }
+.arrow{
+    position: absolute;
+    right: 9px;
+    top: 38%;
+    }
+/*about*/
+.about .logo {
+    margin: 30px 0;
+    }
+/**IOS**/
+.platform-ios.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader) {
+    height:70px;
+    }
+.platform-ios.platform-cordova:not(.fullscreen) .has-header{
+    top: 70px;
+    }
+.platform-ios.platform-cordova:not(.fullscreen) .bar-header.menu_head:not(.bar-subheader) {
+    height:185px;
+    }
+.platform-ios.platform-cordova:not(.fullscreen) .has-header.menu_app{
+    top:185px;
+    }
+.platform-ios.platform-cordova:not(.fullscreen) .bar-header.menu_head:not(.bar-subheader) > *{
+    margin-top: 0;
+    }
+.platform-ios.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader) > .profile_img  {
+    margin-top:40px;
+    }
+.platform-ios.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader) > .log_out{
+    margin-top: 20px;
+    }
+
+

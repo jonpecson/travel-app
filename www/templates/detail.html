@@ -1,0 +1,33 @@
+<ion-view view-title="Hotel details">
+  <ion-content class="detail_page padding">
+    <h3 class="main_color">KOALA RESORT</h3>
+    <div class="rating">
+         <i class="ion-star"></i>
+         <i class="ion-star"></i>
+         <i class="ion-star"></i>
+         <i class="ion-star"></i>
+         <i class="ion-star"></i>
+    </div>
+      
+        <div class="main_img" style="background:url({{big_img}})no-repeat"></div>  
+        <div class="more_img" ng-repeat="item in list" ng-class="{'bg_color animated fadeIn':big_img==item.img}">
+             <span ng-click="showImg(item.img)"  style="background:url({{item.img}})no-repeat"></span>
+        </div>  
+      
+      <div class="item_detail">
+       <p class="date">Av 20 November 300, Australia</p>
+       <p>
+            Room facilities:Air Condition, Desk, Free toiletries, Hairdryer, Heating,
+            Kitchenette, Minibar, Pay-per-view Channels, Private bathroom, Room service, Safety Deposit Box, Telephone, 
+            TV, Wake up service, WiFi Room size:35 m2
+       </p>
+        <div class="hotel_data">     
+            <p class="main_color">Max<span class="sec_color">3 Persons</span></p>
+            <p class="main_color">Price per night from<span class="sec_color">$99</span></p>
+        </div>       
+       <a href="#/app/reservation" class="button button-block bg_color">
+           Select Dates
+       </a>
+     </div> 
+  </ion-content>
+</ion-view>

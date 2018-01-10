@@ -1,0 +1,28 @@
+<ion-content class="padding">
+    <div class="logo">
+      <img  src="img/logo.png"/>
+    </div>
+  
+    <form class="app_form">
+        <h3 class="main_color">-  Login  -</h3>
+        <div class="list list-inset">
+            <span>Username</span>
+            <label class="item item-input user_name">
+                <i class="icon ion-person placeholder-icon main_color"></i>
+                <input type="text" placeholder="Username">
+            </label>
+            <span>Password</span>   
+            <label class="item item-input">
+                <i class="icon ion-unlocked placeholder-icon main_color"></i>
+                <input type="password" placeholder="Password">
+            </label>
+        </div>
+        <a href="#/app/home" class="button button-block bg_color">
+            Login
+        </a>
+        <a href="#/register" class="button button-block sec_bg">
+            New user
+        </a>
+        <p class="forg_btn text-center" ng-click="forget_password()">Forgot Password ?</p>
+    </form>    
+</ion-content>
